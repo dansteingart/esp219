@@ -1,5 +1,4 @@
 ## esp219
-
 A basic (fast) esp8266 + INA219 voltage, current and power meareument device using reference
 [adafruit INA219](https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/overview) implementation.
 
