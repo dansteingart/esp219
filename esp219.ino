@@ -59,7 +59,7 @@ void loop(void)
 
   if (millis() > (ts+del))
   {
-      Serial.print(busvoltage); Serial.print(","); Serial.print(current_mA); Serial.print(","); Serial.print(power_mW); Serial.print(","); Serial.println(shuntvoltage) ;
+      Serial.print(millis());Serial.print(",");Serial.print(busvoltage); Serial.print(","); Serial.print(current_mA); Serial.print(","); Serial.print(power_mW); Serial.print(","); Serial.println(shuntvoltage) ;
       ts = millis();
   }
 
